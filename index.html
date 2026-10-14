@@ -4,33 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survive in UTM</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
     <div id="game">
-        <h1>Welcome to Survive in UTM</h1>
+        <h1>Survive in UTM</h1>
+        <img id="studentImage" src="images/studentNormal.png" alt="student character">
         <p id="story">Can you survive the challenges of university life?</p>
 
         <div id="stats">
             <p>Energy: <span id="energy">70</span></p>
+            <div class="bar">
+                <div id="energyBar"></div>
+            </div>
+
             <p>Stress: <span id="stress">20</span></p>
+            <div class="bar">
+                <div id="stressBar"></div>
+            </div>
+
             <p>Progress: <span id="progress">0</span></p>
+            <div class="bar">
+                <div id="progressBar"></div>
+            </div>
+
             <p>Actions Left: <span id="actions">7</span></p>
         </div>
 
         <h2>What will you do?</h2>
 
-        <div id="button">
             <button id="studyButton">Study</button>
             <button id="coffeeButton">Get a Coffee</button>
             <button id="sleepButton">Sleep</button>
             <button id="procrastinateButton">Procrastinate</button>
-        </div>
+            <button id="randomButton">Random Action</button>
 
         <p id="message">
             Choose an action to see how it affects your energy, stress, and progress. 
         </p>
+
+        <p id="eventMessage"></p>
+
+        <button id="restartButton">Restart Game</button>
 
 
 

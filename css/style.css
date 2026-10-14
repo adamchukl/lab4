@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #dad9d9;
+    text-align: center;
+    margin: 0;
+}
+
+#game{
+    background-color: white;
+    width: 500px;
+    max-width: 90%;
+    margin: 5px auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+h1{
+    color: #2c5f2d;
+    margin: 0 0 5px;
+}
+
+#studentImage{
+    width: 280px;
+    height: 320px;
+    object-fit: contain;
+    display: block;
+    margin: 5px auto;
+}
+
+#story{
+    margin: 5px 0;
+}
+
+#stats p{
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.bar{
+    width: 80%;
+    height: 15px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin: 3px auto 7px;
+    overflow: hidden;
+}
+
+h2{
+    margin: 8px 0;
+}
+
+button{
+    padding: 8px 12px;
+    margin: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #2c5f2d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: #438a45;
+    transform: scale(1.05);
+}
+
+button:disabled{
+    background-color: #aaaaaa;
+    cursor: not-allowed;
+    transform: none;
+}
+
+#restartButton{
+    margin-top: 5px;
+}
+
+#message{
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#eventMessage{
+    margin: 4px 0;
+    min-height: 20px;
+}
+
+
+#energyBar{
+    width: 70%;
+    height: 100%;
+    background-color: #4caf50;
+}
+
+#stressBar{
+    width: 20%;
+    height: 100%;
+    background-color: #2ea6e2;
+}
+
+#progressBar{
+    width: 0%;
+    height: 100%;
+    background-color: #2196f3;
+}
+
+
+
